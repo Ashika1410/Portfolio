@@ -401,3 +401,309 @@
      width: 150px;
      background-color: navajowhite;
  }
+
+ @media screen and (max-width: 320px) {
+    .tool-bar {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .tool-bar a {
+        color: rgb(28 209 25);
+        padding: 10px 10px;
+        font-size: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .icons {
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+        margin-left: 7%;
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 52px;
+        font-style: initial;
+        margin-left: 15%;
+        margin-top: 6%;
+    }
+
+    .source {
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+
+    .source img {
+        height: 71px;
+        width: 167px;
+    }
+
+    .my-self {
+        margin-left: 15%;
+        margin-top: 0%;
+    }
+
+    .arrow {
+        margin-top: 4%;
+        margin-left: 45%;
+        height: 58px;
+        width: 59px;
+        background-color: rgba(255, 255, 255, .1);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .service {
+        color: aliceblue;
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .info {
+        font-size: 14px;
+        font-style: normal;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .next h1 {
+        text-align: center;
+        margin-top: 14%;
+        margin-left: 7%;
+    }
+
+    .about dl {
+        font-size: 21px;
+        color: white;
+        margin-top: 10%;
+        margin-left: 19%;
+    }
+
+    .me {
+        margin-top: 3%;
+        margin-left: 2%;
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .about p {
+        color: rgb(209, 25, 25);
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+
+    .download {
+        font-size: 15px;
+        margin-left: 40%;
+        height: 5%;
+        width: 35%;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contact {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-top: 11%;
+        height: 2%;
+        width: 24%;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .about h2 {
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 17px;
+        color: rgb(28 209 25);
+    }
+
+    .get {
+        font-size: 17px;
+        margin-top: 2%;
+        margin-left: 34%;
+        height: 12%;
+        width: 33%;
+        background-color: white;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .my-skills {
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 6%;
+        font-size: 15px;
+        font-style: oblique;
+        justify-items: center;
+        color: aliceblue;
+    }
+    
+    .skills {
+        justify-items: center;
+        margin-left: 4%;
+        margin-top: 3%;
+        color: aliceblue;
+        font-size: 15px;
+    }
+    
+    .grid-container {
+        display: block;
+    }
+    
+    .flex {
+        margin-top: 2%;
+    }
+    
+    .flex-img {
+        font-size: 20px;
+        margin-left: 16%;
+        display: block;
+    }
+    
+    .client-one {
+        width: 150px;
+        height: 320px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, .1);
+        margin: 60px;
+        margin-top: 3%;
+        margin-left: 27%;
+        text-align: center;
+    }
+    
+    .client-two {
+        width: 150px;
+        height: 320px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, .1);
+        margin: 60px;
+        margin-top: -3%;
+        margin-left: 28%;
+        text-align: center;
+    }
+    
+    .client-three {
+        width: 150px;
+        height: 320px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, .1);
+        margin: 60px;
+        margin-top: 1%;
+        margin-left: 29%;
+        text-align: center;
+    }
+    
+    .img-flex {
+        font-size: 20px;
+        display: block;
+        margin-top: 0%;
+    }
+    
+    .communication {
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    
+    .communication img {
+        height: 95%;
+        width: 96%;
+    }
+    
+    .message {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    .lets-contact {
+        margin-top: 11%;
+        margin-left: 18%;
+        font-size: 17px;
+    }
+    
+    .send-msg {
+        margin-top: 0%;
+        margin-left: 9%;
+        font-size: 11px;
+    }
+     
+}
+
+@media screen and (max-width: 768) {
+    body{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+    .tool-bar {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .skills {
+        justify-items: center;
+        margin-left: 57%;
+        margin-top: -39%;
+        color: aliceblue;
+        font-size: 23px;
+    }
+
+    .my-skills {
+        text-align: center;
+        margin-top: 3%;
+        margin-left: -44%;
+        font-size: 16px;
+        font-style: italic;
+        justify-items: center;
+        color: aliceblue;
+    }
+    .flex-img {
+        display: flex !important;
+        justify-content: flex-start !important;
+        font-size: 20px;
+        gap: 0px !important;
+        margin-left: 3% !important;
+    }
+
+    .img-flex {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 9px;
+        gap: 0px;
+        margin-top: 5%;
+    }
+
+    .send-msg {
+        margin-top: -75%;
+        margin-left: 71%;
+        font-size: 20px;
+    }
+}
